@@ -1,0 +1,9 @@
+# One node per line: <ssh_host_or_ip> [slots=<num_gpus>]
+# The first line is the master node (RANK=0, MASTER_ADDR).
+#
+# Example for 2 nodes with 8 GPUs each:
+# 10.0.0.1 slots=8
+# 10.0.0.2 slots=8
+
+10.0.0.1 slots=8
+10.0.0.2 slots=8
